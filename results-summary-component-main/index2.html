@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="style2.css">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="results-summary">
+            <div class="results grid-flow" data-spacing="large">
+                <h1 class="section-title">
+                    Your Result
+                </h1>
+
+                <p class="result-score">
+                    <span>76</span> of 100
+                </p>
+
+                <div class="grid-flow">
+                    <p class="result-rank">Great</p>
+                    <p>
+                        You scored higher than 65% of
+                        the people who have taken these
+                        tests.
+                    </p>
+                </div>
+            </div>
+
+            <div class="summary grid-flow" data-spacing="large">
+                <h2 class="section-title">Summary</h2>
+
+                <div class="grid-flow">
+                    <div class="summary-item" data-item-type="accent1">
+
+                        <div class="flex-group">
+                            <img src="/results-summary-component-main/assets/images/icon-reaction.svg" alt=""
+                                class="summary-icon">
+                            <h3 class="summary-item-title">
+                                Reaction
+                            </h3>
+                        </div>
+
+                        <p class="summaryscore">
+                            <span>80</span> / 100
+                        </p>
+
+                    </div>
+                    <div class="summary-item" data-item-type="accent2">
+
+                        <div class="flex-group">
+                            <img src="/results-summary-component-main/assets/images/icon-memory.svg" alt=""
+                                class="summary-icon">
+                            <h3 class="summary-item-title">
+                                Memory
+                            </h3>
+                        </div>
+
+                        <p class="summaryscore">
+                            <span>92</span> / 100
+                        </p>
+
+                    </div>
+
+                    <div class="summary-item" data-item-type="accent3">
+
+                        <div class="flex-group">
+                            <img src="/results-summary-component-main/assets/images/icon-verbal.svg" alt=""
+                                class="summary-icon">
+                            <h3 class="summary-item-title">
+                                Verbal
+                            </h3>
+                        </div>
+
+                        <p class="summaryscore">
+                            <span>61</span> / 100
+                        </p>
+
+                    </div>
+
+                    <div class="summary-item" data-item-type="accent4">
+
+                        <div class="flex-group">
+                            <img src="/results-summary-component-main/assets/images/icon-visual.svg" alt=""
+                                class="summary-icon">
+                            <h3 class="summary-item-title">
+                                Visual
+                            </h3>
+                        </div>
+
+                        <p class="summaryscore">
+                            <span>73</span> / 100
+                        </p>
+
+                    </div>
+                </div>
+
+                <button class="button">Continue</button>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Biswajeet Sahoo</a>.
+    </div>
+</body>
+
+</html>
